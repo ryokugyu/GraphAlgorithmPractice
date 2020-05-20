@@ -1,8 +1,8 @@
-/* Fowllowing code is inspired from this website:
+/* Following code is inspired from this website:
  *https://www.geeksforgeeks.org/graph-and-its-representations/
  * We will now move from using LinkedList to using ArrayList as I am using Java.
  */
-import java.util.*;
+import java.util.ArrayList;
 
 public class GraphRepresentationAdjacencyList {
 
