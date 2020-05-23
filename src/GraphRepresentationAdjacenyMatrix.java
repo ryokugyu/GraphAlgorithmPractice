@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/* import java.util.Scanner;
 public class GraphRepresentationAdjacenyMatrix {
     private int vertices;
     private int[][] adjacencyMatrix;
@@ -67,10 +67,11 @@ public class GraphRepresentationAdjacenyMatrix {
         }
         catch (Exception E)
         {
-            System.out.println("Somthing went wrong");
+            System.out.println("Something went wrong");
         }
 
         sc.close();
 
     }
 }
+*/
