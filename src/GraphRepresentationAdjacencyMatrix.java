@@ -1,11 +1,10 @@
-/* import java.util.Scanner;
-public class GraphRepresentationAdjacenyMatrix {
-    private int vertices;
+
+/*import java.util.Scanner;
+public class GraphRepresentationAdjacencyMatrix {
     private int[][] adjacencyMatrix;
 
     public void RepresentGraphAdjacencyMatrix(int v){
-        vertices = v;
-        adjacencyMatrix = new int[vertices+1][vertices+1];
+        adjacencyMatrix = new int[v +1][v +1];
     }
 
     public void makeEdge(int to, int from, int edge){
@@ -27,7 +26,7 @@ public class GraphRepresentationAdjacenyMatrix {
     }
 
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         int v, e, count = 1, to = 0, from = 0;
         Scanner sc = new Scanner(System.in);
 
@@ -38,7 +37,7 @@ public class GraphRepresentationAdjacenyMatrix {
             System.out.println("Enter the number of edges: ");
             e = sc.nextInt();
 
-            GraphRepresentationAdjacenyMatrix graph = new GraphRepresentationAdjacenyMatrix(v);
+            GraphRepresentationAdjacencyMatrix graph = new GraphRepresentationAdjacencyMatrix(v);
 
             System.out.println("Enter the edges: <to> <from>");
             while (count <= e)
