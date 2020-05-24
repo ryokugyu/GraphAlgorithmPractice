@@ -1,3 +1,5 @@
+package com.DataStructureImplementation;
+
 public class LinkedListInsertion {
     Node head;
 

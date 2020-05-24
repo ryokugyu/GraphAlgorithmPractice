@@ -1,3 +1,5 @@
+package com.DataStructureImplementation;
+
 public class LinkedListSample {
     Node head; //head of the list
 
