@@ -1,3 +1,5 @@
+package com.DataStructureImplementation;
+
 public class TraverseLinkedList {
     Node head;
 
