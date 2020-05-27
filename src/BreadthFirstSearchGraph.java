@@ -2,8 +2,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/* Breadth First search implementation based on queue
- */
+/* Breadth First search implementation based on queue */
 public class BreadthFirstSearchGraph {
     private int vertex;
     private LinkedList[] adj;

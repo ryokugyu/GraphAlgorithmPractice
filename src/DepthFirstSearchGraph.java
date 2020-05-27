@@ -44,6 +44,6 @@ public class DepthFirstSearchGraph {
         g.addEdge(3, 3);
 
         System.out.println("Following is Depth First Traversal starting from vertex 1");
-        g.DFS(1);
+        g.DFS(0);
     }
 }
