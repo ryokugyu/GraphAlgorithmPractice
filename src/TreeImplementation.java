@@ -7,6 +7,8 @@ Creating a simple tree
     /
    4
 */
+
+// Node Definition
 class Node{
     int key;
     Node left, right;
@@ -16,6 +18,7 @@ class Node{
         left = right = null;
     }
 }
+
 public class TreeImplementation {
     Node root;
 
@@ -24,6 +27,7 @@ public class TreeImplementation {
         root = new Node(key);
     }
 
+    //Default Constructor
     TreeImplementation(){
         root = null;
     }
