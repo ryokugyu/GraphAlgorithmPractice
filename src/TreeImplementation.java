@@ -40,4 +40,5 @@ public class TreeImplementation {
         t.root.left.left = new Node(4);
         t.root.right = new Node(3);
     }
+
 }
