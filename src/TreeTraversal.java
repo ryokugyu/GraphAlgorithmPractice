@@ -1,12 +1,3 @@
-class Node {
-    int key;
-    Node left, right;
-
-    Node(int i) {
-        key = i;
-        left = right = null;
-    }
-}
 
 public class TreeTraversal {
     Node root;
